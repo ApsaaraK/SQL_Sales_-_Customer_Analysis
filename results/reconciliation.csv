@@ -1,0 +1,12 @@
+group,check,value,expected,status
+Row counts,View rows = order_items rows (joins add no rows),7447,7447,PASS
+Revenue,Revenue via the line view (3 tables joined),54450015.00,54450015.00,PASS
+Revenue,Revenue summed customer by customer,54450015.00,54450015.00,PASS
+Revenue,Revenue summed month by month,54450015.00,54450015.00,PASS
+Revenue,Revenue summed category by category,54450015.00,54450015.00,PASS
+Revenue,Revenue summed channel by channel,54450015.00,54450015.00,PASS
+Orders,Orders with a kept line: view vs direct,4111,4111,PASS
+Orders,Monthly order counts add up to the total,4111,4111,PASS
+Identity,Gross sales - discounts - returned value = revenue,54450015.00,54450015.00,PASS
+Trap (wrong on purpose),Revenue after joining each line to all lines of its order,119981340.00,54450015.00,WRONG: 120% too high
+Trap (wrong on purpose),"COUNT(order_id) after the same join, instead of COUNT(DISTINCT)",15050,4111,WRONG: 266% too high

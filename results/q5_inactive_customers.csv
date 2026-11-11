@@ -1,0 +1,5 @@
+segment,customers,pct_of_customers,lifetime_revenue,avg_purchases
+1 Active (0-90 days),448,64.0,37831865.00,6.4
+2 At risk (91-180 days),139,19.9,10739100.00,5.6
+3 Inactive (180+ days),111,15.9,5879050.00,4.2
+Never purchased,2,0.3,0,0

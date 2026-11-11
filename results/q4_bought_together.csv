@@ -1,0 +1,11 @@
+product_a,product_b,orders_together,pct_of_orders,lift
+Power Bank 10000mAh,Bluetooth Speaker,24,0.58,1.05
+Denim Jeans,Backpack,21,0.51,1.06
+Smart Watch,Denim Jeans,21,0.51,1.08
+Cotton T-Shirt,Sunglasses,20,0.49,1.01
+USB-C Fast Charger,Sunglasses,20,0.49,0.85
+Wireless Earbuds,Bluetooth Speaker,20,0.49,0.97
+Denim Jeans,Sneakers,19,0.46,0.97
+Handloom Sarong,Backpack,19,0.46,1.09
+Wireless Earbuds,Denim Jeans,19,0.46,1.00
+Phone Case,Food Storage Set,18,0.44,1.06
